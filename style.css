@@ -1,0 +1,14 @@
+:root {
+    --width: 1162px;
+    --height: 658px;
+}
+
+.bg-box {
+    width: var(--width);
+    height: var(--height);
+    background-color: green;
+    background-image: url(./house.png), url(./bulb.png), url(./grass.png), url(./donut.png), url(./animal.png);
+    background-position: center, top, bottom left, right, left;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 596px, calc(var(--width) / 25), calc(var(--width) / 3.4), calc(var(--width) / 19), calc(var(--width) / 25);
+}
